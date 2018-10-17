@@ -1,0 +1,41 @@
+<div style="padding-top: 1.25rem;" >
+  <div class="nav-menu">
+    <span class="nav-menu-item" (click)="busClick()">
+      <a style="font-weight: bold; text-decoration: underline;font-family: arial; font-size: 12pt; color: #dc3131">
+        Автобусы
+      </a>
+    </span>
+    <span class="nav-menu-item" (click)="trolClick()">
+      <a style="font-weight: bold; text-decoration: underline;font-family: arial; font-size: 12pt; color: #dc3131">
+        Троллейбусы
+      </a>
+    </span>
+    <span class="nav-menu-item" (click)="tramClick()">
+      <a style="font-weight: bold; text-decoration: underline;font-family: arial; font-size: 12pt; color: #dc3131">
+        Трамваи
+      </a>
+    </span>
+    <span class="nav-menu-item" (click)="metroClick()">
+      <a style="font-weight: bold; text-decoration: underline;font-family: arial; font-size: 12pt; color: #dc3131">
+        Метро
+      </a>
+    </span>
+  </div>
+
+    <div id="schedule_list" class="inner content routes">
+      <ul *ngFor="let data of transportRouteSet" (click)="onSelect(data)">
+        <li class="odd data_row">
+      <span>
+        <a class="number_link">
+          <b style="background-color: #dc3131;" class="{{data.className}}">{{data.busNumber}}</b>
+        </a>
+        <a style="color: #dc3131;">
+          {{data.routName}}
+        </a>
+      </span>
+        </li>
+      </ul>
+    </div>
+    <!--<div id="output">waiting for action</div>-->
+
+</div>

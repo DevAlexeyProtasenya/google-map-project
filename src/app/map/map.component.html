@@ -1,0 +1,9 @@
+
+
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+<agm-map [latitude]="latCenter" [longitude]="lngCenter" [zoom]="11">
+  <agm-marker *ngFor="let data of stopSet" [latitude]="data.latStop" [longitude]="data.lngStop" >
+    <agm-info-window>{{data.stopName}}</agm-info-window>
+  </agm-marker>
+</agm-map>

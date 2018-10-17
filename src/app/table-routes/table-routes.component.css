@@ -1,0 +1,121 @@
+div#schedule_list ul {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}
+
+div#schedule_list ul li {
+  /*height:16px;*/
+  overflow:hidden;
+  line-height: 10pt;
+}
+
+div#schedule_list ul span {
+  margin-left:6px;
+}
+
+div#schedule_list ul li.odd {
+  background-color: #eee;
+}
+
+div#schedule_list ul li.odd:hover {
+  background-color: #ffffff;
+}
+
+b.number1
+{
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color:#FFFFFF;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.8;
+  text-align:center;
+  margin: 0 7px 0 0px;
+  padding: 1px 13px;
+}
+
+b.number3
+{
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color:#FFFFFF;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.8;
+  text-align:center;
+  margin: 0 7px 0 0px;
+  padding: 1px 6px;
+}
+
+b.number4
+{
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color:#FFFFFF;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.8;
+  text-align:center;
+  margin: 0 7px 0 0px;
+  padding: 1px 3px;
+}
+
+b.number
+{
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color:#FFFFFF;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.8;
+  text-align:center;
+  margin: 0 7px 0 0px;
+  padding: 1px 9px;
+}
+
+b.number2
+{
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color:#FFFFFF;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.8;
+  text-align:center;
+  margin: 0 7px 0 0px;
+  padding: 1px 10px;
+}
+
+.data_row:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+#nav-menu span a {
+  white-space:nowrap;
+  height: 1.6em;
+  line-height: 1.6em;
+  /*width: 9em;*/
+  padding-left:6px;
+  padding-right:6px;
+  padding-top:2px;
+  padding-bottom:2px;
+  /*border: 0.1em solid #dcdce9;*/
+  /*color: #0d2474;*/
+  text-decoration: none;
+  text-align: center;
+  /*margin-left:8px;*/
+}
+
+.nav-menu span a:hover
+{
+  background: #f3f3f3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.routes{
+  height: -webkit-fill-available;
+  overflow-y: scroll;
+}
+.nav-menu{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
